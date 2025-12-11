@@ -29,7 +29,7 @@ This script installs the **Smarters OTT Billing Panel (Smarters IPTV Panel)**.
 
 ### Installation
 ```bash
-apt install wget -y && rm -f install-smarters-ott-panel.sh install-smarters-ott-panel*.log && wget https://raw.githubusercontent.com/whmcs-smarters/Smarters-Panel-2024/main/install-smarters-ott-panel.sh && chmod +x install-smarters-ott-panel.sh && ./install-smarters-ott-panel.sh -d <domain-name> -m <mysql-root-password> -b <git-branch-name> -p <git-access-token>
+apt install wget -y && rm -f install-smarters-ott-panel.sh install-smarters-ott-panel*.log && wget https://raw.githubusercontent.com/marsiratv/install-smarters-ott-panel.sh/refs/heads/main/install-smarters-ott-panel.sh && chmod +x install-smarters-ott-panel.sh && ./install-smarters-ott-panel.sh
 ```
 ### 4. `install-smarters-br-panel.sh`
 
